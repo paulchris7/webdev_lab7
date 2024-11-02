@@ -9,7 +9,7 @@ td, th {
 img {
   width: 200px;
   height: 150px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 #page-wrapper {
