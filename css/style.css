@@ -1,3 +1,7 @@
+body {
+	background-image: url("../images/space.jpg");
+}
+
 td, th {
 	border: 1px solid;
   }
