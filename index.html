@@ -6,78 +6,80 @@
   <link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div id="page-wrapper">
 		<header>
 			<h1>Planetary Fact Sheet</h1>
-			<p>Welcome to the ultimate guide to our solar system! The Planetary Fact Sheet is your one-stop resource for discovering fascinating facts about the planets, moons, and other celestial bodies that orbit our Sun. Dive into detailed profiles for each planet, including size, distance from the Sun, composition, atmosphere, surface features, and much more. Whether you’re a student, space enthusiast, or curious mind, this site offers easy-to-read summaries and scientific data to help you explore the wonders of space. Start your journey through the cosmos and uncover the secrets of our neighboring planets today!</p>
+			<p id="description">Welcome to the ultimate guide to our solar system! The Planetary Fact Sheet is your one-stop resource for discovering fascinating facts about the planets, moons, and other celestial bodies that orbit our Sun. Dive into detailed profiles for each planet, including size, distance from the Sun, composition, atmosphere, surface features, and much more. Whether you’re a student, space enthusiast, or curious mind, this site offers easy-to-read summaries and scientific data to help you explore the wonders of space. Start your journey through the cosmos and uncover the secrets of our neighboring planets today!</p>
 		</header>
-		<table id="planets">
-			<tr>
-				<th></th>
-				<th>Earth</th>
-				<th>Mars</th>
-				<th>Jupiter</th>
-				<th>Saturn</th>
-			</tr>
-			<tr>
-				<td>Images of ??</td>
-				<td><img class="planetpic" src="images/earth.jpg" alt="?"></td>
-				<td><img class="planetpic" src="images/mars.jpg" alt="?"></td>
-				<td><img class="planetpic" src="images/jupiter.jpg" alt="?"></td>
-				<td><img class="planetpic" src="images/saturn.jpg" alt="?"></td>
-			</tr>
-			<tr>
-				<td>Mass (kg)</td>
-				<td>5.97</td>
-				<td>0.642</td>
-				<td>1898</td>
-				<td>568</td>
-			</tr>
-			<tr>
-				<td>Diameter (km)</td>
-				<td>12,756</td>
-				<td>6792</td>
-				<td>142,984</td>
-				<td>120,536</td>
-			</tr>
-			<tr>
-				<td>Density (kg/m<sup>3</sup>)</td>
-				<td>5514</td>
-				<td>3934</td>
-				<td>1326</td>
-				<td>687</td>
-			</tr>
-			<tr>
-				<td>Gravity (m/s<sup>2</sup>)</td>
-				<td>9.8</td>
-				<td>3.7</td>
-				<td>23.1</td>
-				<td>9.0</td>
-			</tr>
-			<tr>
-				<td>Distance from Sun (10<sup>6</sup> km)</td>
-				<td>149.6</td>
-				<td>228.0</td>
-				<td>778.5</td>
-				<td>1432.0</td>
-			</tr>
-			<tr>
-				<td>Lenght of Day (hours)</td>
-				<td>24.0</td>
-				<td>24.7</td>
-				<td>9.9</td>
-				<td>10.7</td>
-			</tr>
-			<tr>
-				<td>Mean Temperature (C)</td>
-				<td>15</td>
-				<td>-65</td>
-				<td>-110</td>
-				<td>-140</td>
-			</tr>
-		</table>
+		<div id="content-wrapper">
+			<table id="planets">
+				<tr>
+					<th></th>
+					<th>Earth</th>
+					<th>Mars</th>
+					<th>Jupiter</th>
+					<th>Saturn</th>
+				</tr>
+				<tr>
+					<td>Images of ??</td>
+					<td><img class="planetpic" src="images/earth.jpg" alt="?"></td>
+					<td><img class="planetpic" src="images/mars.jpg" alt="?"></td>
+					<td><img class="planetpic" src="images/jupiter.jpg" alt="?"></td>
+					<td><img class="planetpic" src="images/saturn.jpg" alt="?"></td>
+				</tr>
+				<tr>
+					<td>Mass (kg)</td>
+					<td>5.97</td>
+					<td>0.642</td>
+					<td>1898</td>
+					<td>568</td>
+				</tr>
+				<tr>
+					<td>Diameter (km)</td>
+					<td>12,756</td>
+					<td>6792</td>
+					<td>142,984</td>
+					<td>120,536</td>
+				</tr>
+				<tr>
+					<td>Density (kg/m<sup>3</sup>)</td>
+					<td>5514</td>
+					<td>3934</td>
+					<td>1326</td>
+					<td>687</td>
+				</tr>
+				<tr>
+					<td>Gravity (m/s<sup>2</sup>)</td>
+					<td>9.8</td>
+					<td>3.7</td>
+					<td>23.1</td>
+					<td>9.0</td>
+				</tr>
+				<tr>
+					<td>Distance from Sun (10<sup>6</sup> km)</td>
+					<td>149.6</td>
+					<td>228.0</td>
+					<td>778.5</td>
+					<td>1432.0</td>
+				</tr>
+				<tr>
+					<td>Lenght of Day (hours)</td>
+					<td>24.0</td>
+					<td>24.7</td>
+					<td>9.9</td>
+					<td>10.7</td>
+				</tr>
+				<tr>
+					<td>Mean Temperature (C)</td>
+					<td>15</td>
+					<td>-65</td>
+					<td>-110</td>
+					<td>-140</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 </body>
