@@ -47,7 +47,7 @@ header h1 {
     text-align: center;     
 }
 
-#planets {
+#content-wrapper table {
   width: 80%;
   border-collapse: collapse;
   margin: 20px 0;
