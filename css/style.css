@@ -19,30 +19,25 @@ img {
   border-radius: 12px 12px 12px 12px; 
 }
 
-header {
-    position: relative;
-    height: 100vh; 
+#header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    height: 100vh;          
+    text-align: center;     
 }
 
-header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-		font-family: "Kalnia Glaze", serif;
-		font-optical-sizing: auto;
+#header h1 {
+    font-size: 3em;
+    font-family: 'Kalnia Glaze', cursive;
 		font-weight: 700;
-		font-style: normal;
-		font-variation-settings:
-		"wdth" 100;
+    margin-bottom: 10px; 
 }
 
-header p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-		font-family: "Merriweather", serif;
-		font-weight: 700;
-		font-style: normal;
+.description {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 600px; 
+    line-height: 1.5;
 }
+
