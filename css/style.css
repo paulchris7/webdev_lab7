@@ -55,9 +55,13 @@ header h1 {
 }
 
 th, td {
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #ddd;
-		font-size: 15px;
-		font-family: 'Merriweather', serif;
+  padding: 12px;
+  text-align: left;
+	border: 1px solid #ddd;
+	font-size: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+#picture_row {
+	height: auto;
 }
