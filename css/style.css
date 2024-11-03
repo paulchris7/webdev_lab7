@@ -31,12 +31,10 @@ header h1 {
     margin-bottom: 10px; 
 }
 
-.description {
-    font-size: 2em;
+#description {
+    font-size: 15px;
 		font-family: 'Merriweather', serif;
-    color: #333;
     width: 80%; 
-		margin: auto 10px;
     line-height: 1.5;
 }
 
