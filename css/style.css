@@ -19,16 +19,16 @@ img {
   border-radius: 12px 12px 12px 12px; 
 }
 
-#header {
+header {
     position: relative;
     height: 100vh; 
 }
 
-#header h1 {
+header h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    /*transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
 		font-family: "Kalnia Glaze", serif;
 		font-optical-sizing: auto;
 		font-weight: 100;
